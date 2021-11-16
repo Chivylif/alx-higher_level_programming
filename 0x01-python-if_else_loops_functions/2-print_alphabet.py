@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-# Print ASCII alphabet in lowercase
-for i in range(97, 123):
-	print("{:s}".format(chr(i)), end="")
+for c in range(ord('a'), ord('z')+1):
+    print('{}'.format(chr(c)), end='')
