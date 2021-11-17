@@ -7,4 +7,4 @@ def print_last_digit(number):
     else:
         num = number
     print("{:d}".format(num), end='')
-    return num
+    return (num)
