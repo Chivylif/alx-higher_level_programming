@@ -1,8 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <stdarg.h>
 
 /**
  * insert_node - inserts a node
