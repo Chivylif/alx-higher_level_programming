@@ -2,9 +2,9 @@
 def print_last_digit(number):
     if number < 0:
         num = number % -10
-    elif number == 0:
-        num = number
-    else:
+    elif number > 0:
         num = number % 10
+    else:
+        num = number
     print("{:d}".format(num), end='')
     return num
