@@ -4,7 +4,7 @@ def print_last_digit(number):
         num = number % -10
     elif number == 0:
         num = number
-    else
+    else:
         num = number % 10
     print("{:d}".format(num), end='')
     return num
